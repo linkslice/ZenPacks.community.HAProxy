@@ -1,6 +1,6 @@
 Monitor your haproxy cluster using zenoss and snmp
 
-You'll need to configure haproxy to use socket for stats, and your snmpd to run a perl script[2] to read from that socket (trust me this is pretty easy).
+You'll need to configure haproxy to use socket for stats[1], and your snmpd to run a perl script[2] to read from that socket (trust me this is pretty easy).
 
 [1] http://serverfault.com/questions/273820/haproxy-perl-plugin-and-net-snmpd-on-ubuntu-10-04
 
