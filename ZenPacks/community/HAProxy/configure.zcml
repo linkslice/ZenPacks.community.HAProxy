@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure xmlns="http://namespaces.zope.org/zope">
+
+    <adapter
+            provides=".interfaces.IHAProxyBackendsInfo"
+            for=".HAProxyBackend.HAProxyBackend"
+            factory=".info.HAProxyBackendsInfo"
+            />
+
+    <adapter
+            provides=".interfaces.IHAProxyFrontendsInfo"
+            for=".HAProxyFrontend.HAProxyFrontend"
+            factory=".info.HAProxyFrontendsInfo"
+            />
+
+    <adapter
+            provides=".interfaces.IHAProxyServersInfo"
+            for=".HAProxyServer.HAProxyServer"
+            factory=".info.HAProxyServersInfo"
+            />
+
+    <include package=".browser"/>
+
+</configure>
