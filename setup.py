@@ -8,7 +8,7 @@ AUTHOR = "Bryan Irvine"
 LICENSE = ""
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.community']
 PACKAGES = ['ZenPacks', 'ZenPacks.community', 'ZenPacks.community.HAProxy']
-INSTALL_REQUIRES = ['ZenPacks.zenoss.CalculatedPerformance', 'ZenPacks.zenoss.PythonCollector>=1.9']
+INSTALL_REQUIRES = ['ZenPacks.zenoss.CalculatedPerformance', 'ZenPacks.zenoss.PythonCollector']
 COMPAT_ZENOSS_VERS = ""
 PREV_ZENPACK_NAME = ""
 # STOP_REPLACEMENTS
