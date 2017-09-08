@@ -2972,11 +2972,5 @@ AVERAGE
 </tomanycont>
 </object>
 </tomanycont>
-<object id='Dev' module='Products.ZenModel.DeviceClass' class='DeviceClass'>
-</object>
-<object id='Mod' module='Products.ZenModel.DeviceClass' class='DeviceClass'>
-</object>
-<object id='Prod' module='Products.ZenModel.DeviceClass' class='DeviceClass'>
-</object>
 </object>
 </objects>
