@@ -10,3 +10,4 @@ note: this is adapted for the community from another proprietary version I had w
 
 
 
+This has been tested on 4.x, 5.x, and 6.x but should even work on 3.x.
